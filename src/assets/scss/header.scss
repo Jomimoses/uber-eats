@@ -1,0 +1,49 @@
+@import "./colors.scss";
+
+.header {
+  position: relative;
+  //   border-bottom: 0px solid $header-border-bottom-color;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    height: 70px;
+  }
+}
+
+.headerRight {
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headerText {
+  padding: 0 10px 0 0;
+}
+
+.headerNotLoggedIn {
+  background-color: $header-notloggin-bgcolor;
+  // border-bottom: 1px solid $header-border-bottom-color;
+  height: 50px;
+  z-index: 1;
+  text-align: center;
+  font-size: 1.8rem;
+  color: $header-text-color;
+}
+
+.headerTextWithPrefixedSpace {
+  padding: 0 0 0 10px;
+}
+
+.search{
+
+}

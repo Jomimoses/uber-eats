@@ -1,0 +1,60 @@
+@import "./colors.scss";
+.container {
+  padding: 10px 20px;
+}
+.img-dish {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10px;
+}
+.margin-v-3 {
+  margin: 3rem 0;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.circle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  .view {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .primary {
+    color: $primary;
+    border: 2px solid $primary;
+  }
+  .success {
+    color: $success;
+    border: 2px solid $success;
+  }
+  .warning {
+    color: $warning;
+    border: 2px solid $warning;
+  }
+  .danger {
+    color: $danger;
+    border: 2px solid $danger;
+  }
+}
+
+.bg-secondary {
+  background-color: lightgray;
+}
+.card-view {
+  height: 80px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+}
+
+// Text
+.note {
+  color: lightgrey;
+}
